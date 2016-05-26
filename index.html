@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header">
+		<section class="right-section">
+			<input type="text" class="search-input">
+			<a class="search-btn btn"><img src="images/search.png"></a>
+			<a class="login-btn btn"><img src="images/login.png"></a>
+			<a class="exit-btn btn"><img src="images/exit.png"></a>
+		</section>
+	</header>
+
+	<section class="main">
+		<aside class='aside'>
+			<img src="images/logo.png" class="logo">
+
+			<section>
+				<nav class='aside-nav'>
+					<legend>
+						<span class="glyphicon glyphicon-triangle-right"></span>我的工作平台
+					</legend>
+					<ul>
+						<li>
+							<span class="glyphicon glyphicon-th-list"></span>任务中心
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-star"></span>我的收藏
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="aside-nav">
+					<legend>
+						<span class="glyphicon glyphicon-triangle-right"></span>我的应用
+					</legend>
+					<ul>
+						<li class="aside-nav-selected">
+							<span class="glyphicon glyphicon-volume-up"></span>公告管理
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-file"></span>文档管理
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-edit"></span>内部问卷调查
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-comment"></span>问题反馈管理
+						</li>
+						<li>
+							<span class="glyphicon glyphicon-book"></span>知识库管理
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</aside>
+
+		<article>
+			<header>
+				<div class="first-row">
+					<figure>
+						<a href=""><img src="images/labixiaoxin.jpeg"></a>
+						<a href="">张小明</a>
+						<time class="date"></time>
+					</figure>
+
+					<div class="my-case">
+						<p>今天工作已经完成<span>10%</span><br/>还需要继续努力！</p>
+					</div>
+				</div>
+
+				<div class="second-row">
+					<div class="progressBlock">
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100">
+						  </div>
+						</div>
+					</div>
+
+					<div class="back-stage-manage">
+						<a href=""><img src="images/set-up.png">后台管理</a>
+					</div>
+				</div>
+			</header>
+
+			<section class="main-block">
+				<header>
+					<span>任务中心</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</header>
+			</section>
+
+			<section class="main-block">
+				<header>
+					<span>我的收藏</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</section>
+			</header>
+
+			<section class="main-block">
+				<header>
+					<span>公告管理</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</header>
+
+				<nav class="top-nav">
+					<select>
+						<option>公司公告</option>
+					</select>
+
+					<select>
+						<option>部门公告</option>
+					</select>
+
+					<select>
+						<option>所有我可见范围</option>
+						<option>我不可见范围</option>
+						<option>部分不可见范围</option>
+					</select>
+
+					<a href="">最新上传</a>
+
+					<a href=""><span class="glyphicon glyphicon-tag"></span>分类标签导航</a>
+
+					<a href=""><span class="glyphicon glyphicon-plus-sign"></span>新建公告</a>
+				</nav>
+
+				<div>
+					<aside class="aside-block">
+						<nav>
+							<a href="javascript:void(0)" class="aside-block-selected">未看公告</a>
+							<a href="javascript:void(0)">已看公告</a>
+							<a href="javascript:void(0)">全部公告</a>
+						</nav>
+
+						<div class="call-board-title-list">
+							<section class="call-board-title not-see">
+								<ul>
+									<li><span class="glyphicon glyphicon-eye-open"></span>75</li>
+									<li><time>2014-01-01</time></li>
+								</ul>
+								<a href="javascript:void(0)" class="title1">国务院公厅关于2014年部分放假时间安排的通知</a>
+							</section>
+
+							<section class="call-board-title not-see">
+								<ul>
+									<li><span class="glyphicon glyphicon-eye-open"></span>75</li>
+									<li><time>2014-01-01</time></li>
+								</ul>
+								<a href="javascript:void(0)" class="title2">国务院公厅关于2014年部分放假时间安排的通知</a>
+							</section>
+
+							<section class="call-board-title already-see">
+								<ul>
+									<li><span class="glyphicon glyphicon-eye-open"></span>75</li>
+									<li><time>2014-01-01</time></li>
+								</ul>
+								<a href="javascript:void(0)" class="title3">已看</a>
+							</section>
+						</div>
+					</aside>
+
+					<section>
+						<div class="article title1-article">
+							<center class="article-title">
+								<h3>国务院公厅关于2014年部分放假时间安排的通知</h3>
+								<ul>
+									<li>发布人：张小明</li>
+									<li>发布时间：2013-12-01 10:15</li>
+									<li>浏览量：300</li>
+								</ul>
+							</center>
+
+							<div class="content">
+								<img src="images/calendar.png">
+								<div>
+									<p>人民网北京12月11日电 国务院今日发布《2014年部分节假日安排的通知》。原文如下：各省、自治区、直辖市人民政府，国务院各部委、各直属机构：经国务院批准，现将2014年元旦、清明节、劳动节、端午节、中秋节和国庆节放假调休日期的具体安排通知如下。<br/>
+									一、元旦：1月1日放假1天。<br/>
+									二、春节：1月31日至2月6日放假调休，共7天。1月26日（星期日）、2月8日（星期六）上班。<br/>
+									三、清明节：...<br/>
+									四、劳动节：...<br/>
+									五、端午节：...<br/>
+									六、中秋节：...<br/>
+									七、国庆节：...<br/>
+									<p class="declare">国务院办公厅2013年12月11日</p>
+								</div>
+							</div>
+
+						<div class="mark-delete">
+							<button class="star" data-content="收藏成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-star"></span>收藏</button>
+							<button class="remove" data-content="删除成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-trash"></span>删除</button>
+						</div>
+
+						<div class="respond">
+							<p>回复：</p>
+							<textarea></textarea>
+							<div class="attachment">
+								<a href=""><span class="glyphicon glyphicon-heart"></span>表情</a>
+								<a href=""><span class="glyphicon glyphicon-arrow-up"></span>上传附件</a>
+							</div>
+							<button>回答</button>
+						</div>
+					</div>
+
+					<div class="article title2-article">
+							<center class="article-title">
+								<h3>国务院公厅关于2014年部分放假时间安排的通知</h3>
+								<ul>
+									<li>发布人：张小明</li>
+									<li>发布时间：2013-12-01 10:15</li>
+									<li>浏览量：300</li>
+								</ul>
+							</center>
+
+							<div class="content">
+								<div>
+									<p>人民网北京12月11日电 国务院今日发布《2014年部分节假日安排的通知》。原文如下：各省、自治区、直辖市人民政府，国务院各部委、各直属机构：经国务院批准，现将2014年元旦、清明节、劳动节、端午节、中秋节和国庆节放假调休日期的具体安排通知如下。<br/>
+									一、元旦：1月1日放假1天。<br/>
+									二、春节：1月31日至2月6日放假调休，共7天。1月26日（星期日）、2月8日（星期六）上班。<br/>
+									三、清明节：...<br/>
+									四、劳动节：...<br/>
+									五、端午节：...<br/>
+									六、中秋节：...<br/>
+									七、国庆节：...<br/>
+									<p class="declare">国务院办公厅2013年12月11日</p>
+								</div>
+							</div>
+
+						<div class="mark-delete">
+							<button class="star" data-content="收藏成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-star"></span>收藏</button>
+							<button class="remove" data-content="删除成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-trash"></span>删除</button>
+						</div>
+
+						<div class="respond">
+							<p>回复：</p>
+							<textarea></textarea>
+							<div class="attachment">
+								<a href=""><span class="glyphicon glyphicon-heart"></span>表情</a>
+								<a href=""><span class="glyphicon glyphicon-arrow-up"></span>上传附件</a>
+							</div>
+							<button>回答</button>
+						</div>
+					</div>
+
+					<div class="article title3-article">
+							<center class="article-title">
+								<h3>已看</h3>
+								<ul>
+									<li>发布人：张小明</li>
+									<li>发布时间：2013-12-01 10:15</li>
+									<li>浏览量：300</li>
+								</ul>
+							</center>
+
+						<div class="mark-delete">
+							<button class="star" data-content="收藏成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-star"></span>收藏</button>
+							<button class="remove" data-content="删除成功" data-placement="top" data-toggle="popover" data-trigger="focus"><span class="glyphicon glyphicon-trash"></span>删除</button>
+						</div>
+
+						<div class="respond">
+							<p>回复：</p>
+							<textarea></textarea>
+							<div class="attachment">
+								<a href=""><span class="glyphicon glyphicon-heart"></span>表情</a>
+								<a href=""><span class="glyphicon glyphicon-arrow-up"></span>上传附件</a>
+							</div>
+							<button>回答</button>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<section class="main-block">
+				<header>
+					<span>文档管理</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</section>
+			</header>
+
+			<section class="main-block">
+				<header>
+					<span>内部问卷调查</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</section>
+			</header>
+
+			<section class="main-block">
+				<header>
+					<span>问题反馈管理</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</section>
+			</header>
+
+			<section class="main-block">
+				<header>
+					<span>知识库管理</span>
+					<div class="search-block">
+						<input type="text" class="call-board-search">
+						<button><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</section>
+			</header>
+		</article>
+
+		<footer>
+			<p><span class="glyphicon glyphicon-copyright-mark"></span>2015 shouyu all rights reserved</p>
+		</footer>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
